@@ -1,0 +1,36 @@
+<svg width="760" height="920" viewBox="0 0 760 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="920" fill="#060A17"/>
+  <circle cx="380" cy="260" r="168" fill="url(#headGlow)" opacity="0.72"/>
+  <circle cx="380" cy="244" r="126" fill="#111827"/>
+  <path d="M176 920C193 694 259 535 380 535C501 535 567 694 584 920H176Z" fill="url(#bodyGradient)"/>
+  <path d="M194 920C222 715 285 597 380 597C475 597 538 715 566 920H194Z" fill="#070B18" opacity="0.9"/>
+  <path d="M200 0H560L760 920H0L200 0Z" fill="url(#beam)" opacity="0.32"/>
+  <path d="M145 741C233 668 312 631 380 631C448 631 527 668 615 741" stroke="#7DF9FF" stroke-width="2" opacity="0.45"/>
+  <path d="M260 251C296 208 333 187 379 187C426 187 465 208 501 251" stroke="#F8FBFF" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <path d="M282 298C307 320 339 332 380 332C421 332 453 320 478 298" stroke="#7DF9FF" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="278" cy="310" r="8" fill="#7DF9FF" opacity="0.8"/>
+  <circle cx="482" cy="310" r="8" fill="#A855F7" opacity="0.8"/>
+  <rect x="48" y="48" width="664" height="824" rx="56" stroke="url(#borderGradient)" stroke-width="2" opacity="0.58"/>
+  <defs>
+    <radialGradient id="headGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(380 260) rotate(90) scale(168)">
+      <stop stop-color="#7DF9FF"/>
+      <stop offset="0.48" stop-color="#2F7CFF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bodyGradient" x1="176" y1="535" x2="584" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172554"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#581C87"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="380" y1="0" x2="380" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DF9FF"/>
+      <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#02040A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="borderGradient" x1="48" y1="48" x2="712" y2="872" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DF9FF"/>
+      <stop offset="0.5" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#FF4ECD"/>
+    </linearGradient>
+  </defs>
+</svg>
